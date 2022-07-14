@@ -1,7 +1,6 @@
 # 1880-script
-Make your GitHub history back to 1990.
+Make your GitHub history back to 1880.
 
-![image](https://user-images.githubusercontent.com/11247099/89427797-38f24f80-d76e-11ea-84fa-ab5642751792.png)
 
 ## Travel Back
 
@@ -12,7 +11,7 @@ Make your GitHub history back to 1990.
 Run the following script
 
 ```bash
-$ sh -c "$(curl -fsSL https://raw.github.com/antfu/1990-script/master/index.sh)"
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/rmznbyv/1880-script/main/1880.sh)"
 ```
 
 Enter you GitHub username and access token and then you are done :)
