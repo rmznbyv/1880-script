@@ -24,10 +24,10 @@ The script firstly creates a directory with the name of the wanted year - `line 
 
 The script then initializes the directory as a git repository, using `git init` - `line 12` `git init`
 
-The script then stages all the files `git add .` and commits it, using the date `{YEAR}-01-01T18:00:00` (`line 16`) or `6pm, 1st January, 1990` (default of the `YEAR` variable)
+The script then stages all the files `git add .` and commits it, using the date `{YEAR}-01-01T18:00:00` (`line 16`) or `6pm, 1st January, 1880` (default of the `YEAR` variable)
 
 This is the `ISO Date-Time format` for storing time: `YYYY-MM-DDTHH:MM:SS`.
 
 This commit is then pushed to GitHub (provided you already have made a repository) using `git push -u origin main -f`, and the directory is removed.
 
-GitHub recognizes the commit to have been created at `6 pm, 1st January, 1990` and thus registers a contribution at that moment in time. If you scroll to the first year on your profile, you will see there is a single contribution to your `1990` repository, on 1st January.
+GitHub recognizes the commit to have been created at `6 pm, 1st January, 1880` and thus registers a contribution at that moment in time. If you scroll to the first year on your profile, you will see there is a single contribution to your `1880` repository, on 1st January.
